@@ -1,0 +1,35 @@
+$light-theme-vars: (
+  // Основные цвета
+  color-background: #f4f5f7,
+  // Светлый фон
+  color-text-primary: #111827,
+  // Темный основной текст
+  color-text-secondary: #6b7280,
+  // Серый второстепенный текст
+  color-border: #e5e7eb,
+
+  // Светлые рамки
+  // Акцентные цвета остаются теми же для UI элементов
+  color-accent-primary: #61b700,
+  color-accent-tag-1: #ffb84c,
+  color-accent-tag-2: #446dff,
+  color-accent-tag-3: #64ddbb,
+  color-special-icon: #e54d4d,
+
+  color-bg-anim-1: #c5e8a0,
+  // Светло-зеленый
+  color-bg-anim-2: #a8c5ff,
+  // Светло-голубой
+  color-bg-anim-3: #c0f0e2,
+  // Светло-мятный
+  color-bg-anim-4: #ffe4b8,
+  // Светло-оранжевый
+  color-bg-anim-5: #f7caca,
+  // Светло-красный
+  // -----------------------------------------------------------
+  // Специальные цвета для карточек на светлом фоне
+  case-study-card-bg: #ffffff,
+  case-study-card-description: #a5b9db,
+  recent-work-card-bg: #ffffff,
+  testimonial-card-bg: #ffffff
+);

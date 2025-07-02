@@ -1,0 +1,185 @@
+{
+    "nav": {
+        "home": "Home",
+        "skills": "Skills",
+        "services": "Services",
+        "caseStudies": "Case Studies",
+        "testimonials": "Testimonials",
+        "recentWork": "Recent Work",
+        "contact": "Contact"
+    },
+    "socials": {
+        "linkedin": "LinkedIn Profile",
+        "twitter": "Twitter Profile"
+    },
+    "hero": {
+        "name": "Nikita Gorobets",
+        "introText": "Hi! I'm a web developer and designer from Kazan. I study at KFU in 'Information Systems and Technologies' and work in an electronic document management system. I create intuitive and effective web solutions for business and users.",
+        "buttonText": "Contact Me",
+        "downloadCV": "Download CV",
+        "workedWith": "Worked With"
+    },
+    "skills": {
+        "title": "Core Skills",
+        "subtitle": "My proficiency level in key technologies and tools."
+    },
+    "services": {
+        "title": "My Services",
+        "subtitle": "I offer a full development cycle: from thoughtful design to functional implementation and optimization.",
+        "loading": "Loading services...",
+        "error": "Error loading services",
+        "empty": "No services found.",
+        "emptyFiltered": "No services in this category.",
+        "emptySearch": "No services match your search.",
+        "categories": {
+            "all": "All",
+            "layout": "Layout",
+            "design": "Design",
+            "development": "Development"
+        },
+        "search": {
+            "label": "Search Services",
+            "placeholder": "Start typing a title or description..."
+        },
+        "card": {
+            "flipHint": "Click to learn more"
+        }
+    },
+    "servicesData": {
+        "layout": {
+            "title": "Website Layout",
+            "description": "Creating semantically correct, adaptive, and cross-browser compatible layouts from your design."
+        },
+        "design": {
+            "title": "UI/UX Design",
+            "description": "Designing intuitive and aesthetically pleasing interfaces in Figma."
+        },
+        "development": {
+            "title": "Web Development",
+            "description": "Developing interactive web applications using Vue.js, Pinia, and TypeScript."
+        },
+        "optimization": {
+            "title": "Speed Optimization",
+            "description": "Improving your website's performance for fast loading and a better user experience."
+        },
+        "adaptive": {
+            "title": "Responsive Layout",
+            "description": "Ensuring your site displays correctly on all devices, from smartphones to widescreen monitors."
+        },
+        "ux": {
+            "title": "UX Research",
+            "description": "Analyzing user behavior to create products that solve real-world problems."
+        }
+    },
+    "caseStudiesData": {
+        "item1": {
+            "title": "Website for a Clinical Company",
+            "description": "Creating a modern website for a clinical company that provides patients with access to information about medical services, specialists, and procedures, as well as the ability to book appointments online. The site will be HIPAA compliant to protect sensitive data, include educational content to increase patient awareness, and be SEO optimized to attract new clients. The interface is designed with a focus on usability and visual appeal, which builds brand trust.",
+            "tag": "Fintech"
+        },
+        "item2": {
+            "title": "Project Name",
+            "description": "A brief description of the project. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+            "tag": "EdTech"
+        },
+        "item3": {
+            "title": "Project Name",
+            "description": "A brief description of the project. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+            "tag": "Pharma"
+        }
+    },
+    "recentWorksData": {
+        "item1": {
+            "title": "Work Title",
+            "description": "Work description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+        },
+        "item2": {
+            "title": "Work Title",
+            "description": "Work description. Rempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt."
+        },
+        "item3": {
+            "title": "Another Work",
+            "description": "Work description. Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
+        },
+        "item4": {
+            "title": "Final Project",
+            "description": "Work description. Dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        }
+    },
+    "testimonialsData": {
+        "item1": {
+            "text": "Testimonial text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "authorName": "Client Name"
+        },
+        "item2": {
+            "text": "Testimonial text. Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.",
+            "authorName": "Client Name"
+        },
+        "item3": {
+            "text": "Testimonial text. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "authorName": "Client Name"
+        },
+        "item4": {
+            "text": "Testimonial text. Ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            "authorName": "Client Name"
+        }
+    },
+    "caseStudies": {
+        "title": "Case Studies",
+        "subtitle": "Examples of my projects where I solved user and business challenges.",
+        "buttonText": "View Case",
+        "loading": "Loading case studies...",
+        "error": "Error loading case studies",
+        "empty": "No case studies found."
+    },
+    "testimonials": {
+        "title": "Testimonials",
+        "subtitle": "Here my clients and colleagues share their impressions of our work together.",
+        "loading": "Loading testimonials...",
+        "error": "Error loading testimonials",
+        "empty": "No testimonials yet."
+    },
+    "recentWork": {
+        "title": "Recent Work",
+        "subtitle": "Projects I've been working on recently.",
+        "buttonText": "Learn More",
+        "loading": "Loading recent works...",
+        "error": "Error loading recent works",
+        "empty": "No recent works found."
+    },
+    "getInTouch": {
+        "title": "Get In Touch",
+        "subtitle": "If you have questions, suggestions, or want to discuss a project - fill out the form below."
+    },
+    "contactForm": {
+        "emailLabel": "Email",
+        "emailPlaceholder": "Enter your email",
+        "mobileLabel": "Phone",
+        "mobilePlaceholder": "Enter your phone number",
+        "messageLabel": "Message",
+        "messagePlaceholder": "Enter your message",
+        "submitButton": "Send",
+        "submittingButton": "Sending...",
+        "validation": {
+            "emailRequired": "The Email field is required.",
+            "emailInvalid": "Please enter a valid email address.",
+            "mobileRequired": "The Phone field is required.",
+            "mobileInvalid": "Enter a valid phone number.",
+            "messageRequired": "The Message field cannot be empty."
+        },
+        "status": {
+            "successTitle": "Success!",
+            "successMessage": "Your message has been sent successfully!",
+            "errorTitle": "An error occurred",
+            "errorMessage": "An unexpected error occurred.",
+            "closeButton": "Got it"
+        }
+    },
+    "footer": {
+        "madeWith": "Made with"
+    },
+    "theme": {
+        "switchToLight": "Switch to light theme",
+        "switchToDark": "Switch to dark theme"
+    }
+}

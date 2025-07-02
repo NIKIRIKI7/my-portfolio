@@ -1,0 +1,28 @@
+// Переменные для темной темы
+$dark-theme-vars: (
+  // Основные цвета
+  color-background: #080808,
+  color-text-primary: #ffffff,
+  color-text-secondary: #ffffff,
+  color-border: #1b1b1b,
+
+  // Акцентные цвета
+  color-accent-primary: #61b700,
+  color-accent-tag-1: #ffb84c,
+  color-accent-tag-2: #446dff,
+  color-accent-tag-3: #64ddbb,
+  color-special-icon: #e54d4d,
+
+  // --- ЦВЕТА ДЛЯ АНИМИРОВАННОГО ФОНА В ТЕМНОЙ ТЕМЕ (используем основные акценты) ---
+  color-bg-anim-1: #61b700,
+  color-bg-anim-2: #446dff,
+  color-bg-anim-3: #64ddbb,
+  color-bg-anim-4: #ffb84c,
+  color-bg-anim-5: #e54d4d,
+  // -----------------------------------------------------------
+  // Специальные цвета для карточек на темном фоне
+  case-study-card-bg: #ffffff,
+  case-study-card-description: #5b5b5b,
+  recent-work-card-bg: #080808,
+  testimonial-card-bg: #080808
+);

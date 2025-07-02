@@ -1,0 +1,24 @@
+@use '@/app/styles/variables' as *;
+@use '@/app/styles/mixins' as *;
+
+@mixin form-control-styles {
+    width: 100%;
+    background-color: $color-background;
+    opacity: 0.8;
+    border: 1px solid $color-border;
+    border-radius: rem(4px);
+    padding: rem(12px) rem(16px);
+    color: $color-text-primary;
+    font-size: rem(16px);
+    transition: border-color 0.3s ease;
+
+    &::placeholder {
+        color: $color-text-secondary;
+        opacity: 0.6;
+    }
+
+    @include on-event {
+        border-color: $color-accent-primary;
+        outline: none;
+    }
+}

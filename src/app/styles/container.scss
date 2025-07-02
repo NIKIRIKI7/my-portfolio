@@ -1,0 +1,9 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: rem(1110px);
+}

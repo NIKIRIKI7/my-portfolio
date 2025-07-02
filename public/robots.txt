@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://nikiriki7.github.io/my-portfolio/sitemap.xml

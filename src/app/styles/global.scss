@@ -1,0 +1,44 @@
+@use 'mixins' as *;
+@use 'variables' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+body {
+    background-color: $color-background;
+    color: $color-text-primary;
+}
+
+@media (pointer: fine) {
+    html,
+    body,
+    a,
+    button,
+    input,
+    textarea,
+    [role='button'] {
+        cursor: none;
+    }
+}
+
+h1 {
+    @include apply-font($font-family-title, 800, 44px);
+}
+
+h2 {
+    @include apply-font($font-family-title, 800, $font-size-title-lg);
+}
+
+h3 {
+    @include apply-font($font-family-title, 800, $font-size-title-card-lg);
+}
+
+p,
+a {
+    @include apply-font($font-family-text, 400, $font-size-text-lg);
+}
+
+a {
+    text-decoration: none;
+    color: $color-text-secondary;
+}

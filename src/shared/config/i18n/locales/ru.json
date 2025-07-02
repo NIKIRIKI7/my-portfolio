@@ -1,0 +1,185 @@
+{
+    "nav": {
+        "home": "Главная",
+        "skills": "Навыки",
+        "services": "Услуги",
+        "caseStudies": "Примеры работ",
+        "testimonials": "Отзывы",
+        "recentWork": "Последние работы",
+        "contact": "Связаться"
+    },
+    "socials": {
+        "linkedin": "Профиль в LinkedIn",
+        "twitter": "Профиль в Twitter"
+    },
+    "hero": {
+        "name": "Никита Горобец",
+        "introText": "Привет! Я веб-разработчик и дизайнер из Казани. Учусь в КФУ по специальности \"Информационные системы и технологии\" и работаю в системе электронного документооборота. Создаю интуитивно понятные и эффективные веб-решения для бизнеса и пользователей.",
+        "buttonText": "Связаться со мной",
+        "downloadCV": "Скачать резюме",
+        "workedWith": "Работал с"
+    },
+    "skills": {
+        "title": "Ключевые навыки",
+        "subtitle": "Мой уровень владения основными технологиями и инструментами."
+    },
+    "services": {
+        "title": "Мои Услуги",
+        "subtitle": "Предлагаю полный цикл разработки: от продуманного дизайна до функциональной реализации и оптимизации.",
+        "loading": "Загрузка услуг...",
+        "error": "Ошибка загрузки услуг",
+        "empty": "Услуги не найдены.",
+        "emptyFiltered": "Нет услуг в данной категории.",
+        "emptySearch": "По вашему запросу ничего не найдено.",
+        "categories": {
+            "all": "Все",
+            "layout": "Верстка",
+            "design": "Дизайн",
+            "development": "Разработка"
+        },
+        "search": {
+            "label": "Поиск услуг",
+            "placeholder": "Начните вводить название или описание..."
+        },
+        "card": {
+            "flipHint": "Нажмите, чтобы узнать больше"
+        }
+    },
+    "servicesData": {
+        "layout": {
+            "title": "Верстка сайтов",
+            "description": "Создание семантически верной, адаптивной и кроссбраузерной верстки на основе вашего макета."
+        },
+        "design": {
+            "title": "UI/UX Дизайн",
+            "description": "Проектирование интуитивно понятных и эстетически привлекательных интерфейсов в Figma."
+        },
+        "development": {
+            "title": "Веб-разработка",
+            "description": "Разработка интерактивных веб-приложений с использованием Vue.js, Pinia и TypeScript."
+        },
+        "optimization": {
+            "title": "Оптимизация скорости",
+            "description": "Улучшение производительности вашего сайта для быстрой загрузки и лучшего пользовательского опыта."
+        },
+        "adaptive": {
+            "title": "Адаптивная верстка",
+            "description": "Гарантия корректного отображения сайта на всех устройствах, от смартфонов до широкоформатных мониторов."
+        },
+        "ux": {
+            "title": "UX-исследования",
+            "description": "Анализ пользовательского поведения для создания продуктов, которые решают реальные задачи."
+        }
+    },
+    "caseStudiesData": {
+        "item1": {
+            "title": "Сайт для клинической компании",
+            "description": "Создание современного веб-сайта для клинической компании, обеспечивающего пациентам доступ к информации о медицинских услугах, специалистах и процедурах, а также возможность онлайн-записи. Сайт будет соответствовать требованиям HIPAA для защиты конфиденциальных данных, включать образовательный контент для повышения осведомленности пациентов и оптимизирован для SEO, чтобы привлекать новых клиентов. Интерфейс разработан с акцентом на удобство использования и визуальную привлекательность, что укрепляет доверие к бренду",
+            "tag": "Fintech"
+        },
+        "item2": {
+            "title": "Название проекта",
+            "description": "Краткое описание проекта. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+            "tag": "EdTech"
+        },
+        "item3": {
+            "title": "Название проекта",
+            "description": "Краткое описание проекта. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+            "tag": "Pharma"
+        }
+    },
+    "recentWorksData": {
+        "item1": {
+            "title": "Название работы",
+            "description": "Описание работы. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+        },
+        "item2": {
+            "title": "Название работы",
+            "description": "Описание работы. Rempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt."
+        },
+        "item3": {
+            "title": "Другая работа",
+            "description": "Описание работы. Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
+        },
+        "item4": {
+            "title": "Финальный проект",
+            "description": "Описание работы. Dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        }
+    },
+    "testimonialsData": {
+        "item1": {
+            "text": "Текст отзыва. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "authorName": "Имя клиента"
+        },
+        "item2": {
+            "text": "Текст отзыва. Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.",
+            "authorName": "Имя клиента"
+        },
+        "item3": {
+            "text": "Текст отзыва. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "authorName": "Имя клиента"
+        },
+        "item4": {
+            "text": "Текст отзыва. Ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            "authorName": "Имя клиента"
+        }
+    },
+    "caseStudies": {
+        "title": "Примеры работ",
+        "subtitle": "Примеры моих проектов, в которых я решал задачи пользователей и бизнеса.",
+        "buttonText": "Смотреть кейс",
+        "loading": "Загрузка кейсов...",
+        "error": "Ошибка загрузки кейсов",
+        "empty": "Примеры работ не найдены."
+    },
+    "testimonials": {
+        "title": "Отзывы",
+        "subtitle": "Здесь мои клиенты и коллеги делятся впечатлениями о совместной работе.",
+        "loading": "Загрузка отзывов...",
+        "error": "Ошибка загрузки отзывов",
+        "empty": "Отзывов пока нет."
+    },
+    "recentWork": {
+        "title": "Последние работы",
+        "subtitle": "Проекты, над которыми я работал в последнее время.",
+        "buttonText": "Узнать больше",
+        "loading": "Загрузка работ...",
+        "error": "Ошибка загрузки работ",
+        "empty": "Последние работы не найдены."
+    },
+    "getInTouch": {
+        "title": "Свяжитесь со мной",
+        "subtitle": "Если у вас есть вопросы, предложения или вы хотите обсудить проект — заполните форму ниже."
+    },
+    "contactForm": {
+        "emailLabel": "Эл. почта",
+        "emailPlaceholder": "Введите вашу эл. почту",
+        "mobileLabel": "Телефон",
+        "mobilePlaceholder": "Введите номер телефона",
+        "messageLabel": "Сообщение",
+        "messagePlaceholder": "Введите ваше сообщение",
+        "submitButton": "Отправить",
+        "submittingButton": "Отправка...",
+        "validation": {
+            "emailRequired": "Поле \"Эл. почта\" обязательно для заполнения.",
+            "emailInvalid": "Пожалуйста, введите корректный адрес эл. почты.",
+            "mobileRequired": "Поле \"Телефон\" обязательно для заполнения.",
+            "mobileInvalid": "Введите корректный номер телефона.",
+            "messageRequired": "Поле \"Сообщение\" не может быть пустым."
+        },
+        "status": {
+            "successTitle": "Успешно!",
+            "successMessage": "Ваше сообщение успешно отправлено!",
+            "errorTitle": "Произошла ошибка",
+            "errorMessage": "Произошла непредвиденная ошибка.",
+            "closeButton": "Понятно"
+        }
+    },
+    "footer": {
+        "madeWith": "Сделано с"
+    },
+    "theme": {
+        "switchToLight": "Переключить на светлую тему",
+        "switchToDark": "Переключить на темную тему"
+    }
+}

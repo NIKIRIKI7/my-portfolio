@@ -1,0 +1,84 @@
+@use 'sass:map';
+@use 'sass:meta';
+@use 'sass:color';
+@use './theme/light-theme' as *;
+@use './theme/dark-theme' as *;
+
+// --- 1. Миксин для применения карты переменных в CSS Custom Properties ---
+@mixin apply-theme($theme-map) {
+  @each $key, $value in $theme-map {
+    @if meta.type-of($value) == 'color' {
+      --#{$key}: #{$value};
+      --#{$key}-rgb: #{color.channel($value, 'red')}, #{color.channel($value, 'green')},
+      #{color.channel($value, 'blue')};
+    } @else {
+      --#{$key}: #{$value};
+    }
+  }
+}
+
+// --- 2. Определяем переменные для каждой темы внутри data-атрибута ---
+:root {
+  @include apply-theme($dark-theme-vars);
+}
+
+[data-theme='light'] {
+  @include apply-theme($light-theme-vars);
+}
+
+[data-theme='dark'] {
+  @include apply-theme($dark-theme-vars);
+}
+
+// --- 3. SCSS-переменные теперь ссылаются на CSS-переменные ---
+
+// Colors
+$color-background: var(--color-background);
+$color-text-primary: var(--color-text-primary);
+$color-text-secondary: var(--color-text-secondary);
+$color-border: var(--color-border);
+$color-accent-primary: var(--color-accent-primary);
+$color-accent-tag-1: var(--color-accent-tag-1);
+$color-accent-tag-2: var(--color-accent-tag-2);
+$color-accent-tag-3: var(--color-accent-tag-3);
+$color-special-icon: var(--color-special-icon);
+
+// Цвета для анимированного фона
+$color-bg-anim-1: var(--color-bg-anim-1);
+$color-bg-anim-2: var(--color-bg-anim-2);
+$color-bg-anim-3: var(--color-bg-anim-3);
+$color-bg-anim-4: var(--color-bg-anim-4);
+$color-bg-anim-5: var(--color-bg-anim-5);
+
+// Специальные переменные для карточек
+$case-study-card-bg: var(--case-study-card-bg);
+$case-study-card-description: var(--case-study-card-description);
+$recent-work-card-bg: var(--recent-work-card-bg);
+$testimonial-card-bg: var(--testimonial-card-bg);
+
+// Fonts Size
+$font-size-base: 16px;
+$font-size-text-lg: 14px;
+$font-size-title-lg: 34px;
+$font-size-title-card-lg: 24px;
+$font-size-client-name-lg: 18px;
+$font-size-tag-lg: 12px;
+
+// Fonts Family
+$font-family-text: 'IBM Plex Mono', serif;
+$font-family-title: 'Raleway', sans-serif;
+
+// BreakPoints
+$grid-breakpoints: (
+  sm: 576px,
+  md: 974px,
+  lg: 1070px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
+$desktop-wide: map.get($grid-breakpoints, xxl);
+$desktop: map.get($grid-breakpoints, xl);
+$laptop: map.get($grid-breakpoints, lg);
+$tablet: map.get($grid-breakpoints, md);
+$mobile: map.get($grid-breakpoints, sm);
